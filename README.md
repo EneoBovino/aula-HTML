@@ -50,6 +50,8 @@ Os mecanismos de pesquisa geralmente mostram apenas os primeiros 155 caracteres 
 
 A metatag de keywords é usada para fornecer uma série de palavras que correspondem ao assunto da página. Os mecanismos de pesquisa costumavam dar peso a esse aspecto da sua página, mas foi abusado a ponto de ter muito pouco peso hoje em dia. Você ainda deve incluí-lo no entanto para ser completo e também porque estima-se que alguns mecanismos de pesquisa o marcarão por não tê-lo.
 
+Uma meta tag viewport faz com que a página fique bem em todos os tamanhos de tela (laptop, mobile):
+
 ### **BODY**
 
 É aqui que o conteúdo real da sua página vai. Todo esse conteúdo estará contido em tags para explicar que tipo de conteúdo é. A seguir, começaremos a ver que tipo de tags podem ser usadas.
@@ -134,3 +136,12 @@ of his left hand</u> which then wandered around in an aimless fashion.</p>
 
 Às vezes, gostaríamos de incluir caracteres em nosso texto que normalmente fazem parte do código HTML (por exemplo, < e >). Ou gostaríamos de usar caracteres que não estão em nosso teclado (por exemplo, † ou ♣). Nós os incluímos por meio de códigos de caracteres
 
+```
+<p>Clubs is the character code for a clubs symbol - &clubs; or &#9827;</p>
+
+<p>Dagger is the character code for a dagger symbol - &dagger; or &#8224;</p>
+```
+
+## Links
+
+Os links são uma parte importante da world wide web. Eles nos permitem pular facilmente de uma página para outra e navegar pela montanha absoluta de informações que existe por aí. A vinculação eficaz entre as páginas do seu próprio site e outros sites é uma coisa importante a ser considerada como desenvolvedor de sites.
